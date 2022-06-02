@@ -22,7 +22,7 @@ And you're done with the setup! Yes, it was that easy.
 ## Usage
 For us to have hot-reload enabled, we need to run both the neutralino process and frontend separately.
 
-1. Make sure you're in the `frontend` folder and run: `yarn run dev`
-2. Then create another terminal window instance, cd into the project's base folder and then run `neu run --frontend-lib-dev`
+1. Make sure you're in the `frontend` folder and run: `yarn run serve`
+2. Then create another terminal window instance, cd into the project's base folder and then run `yarn run serve:neu`
 
 Now you should have a fully working Neutralino app with live updates from the frontend components.

@@ -1,0 +1,10 @@
+{
+    "name": "neutralinojs-vite-vue-ts-template",
+    "description": "Template for developing light and fast desktop applications thanks to Neutralino.js, with the use of Vite, Vue 3 and Typescript",
+    "version": "0.0.0",
+    "author": "FeedTheMEe",
+    "license": "MIT",
+    "scripts": {
+        "serve:neu": "neu run -- --window-enable-inspector --frontend-lib-dev"
+    }
+}
