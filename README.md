@@ -8,15 +8,13 @@ A preconfigured, quick start template for making very [light and fast](https://g
 
 
 ## Installation And Setup
-### 0. Get the necessary tools:
-1. `yarn global add @neutralino/neu`
+1. Get the necessary tools: `yarn global add @neutralinojs/neu`
 
-### 1. Setup the "backend" part:
-1. `yarn`
-2. `neu update`
+2. Setup the "backend" part: `neu update`
 
-### 2. Setup the frontend part:
-1. `yarn run build`
+3. Move into the `frontend` folder: `cd frontend`
+
+4. Setup the frontend part: `yarn && yarn run build`
 
 And you're done with the setup! Yes, it was that easy.
 
