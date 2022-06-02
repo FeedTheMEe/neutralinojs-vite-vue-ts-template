@@ -6,6 +6,7 @@ A preconfigured, quick start template for making very [light and fast](https://g
 
 - [Typescript](https://www.typescriptlang.org/) - Strict superset of JavaScript. Gives developers the ability to create their own types and interfaces with many more settings, resulting in much less errors as projects grow larger in size.
 
+
 ## Installation And Setup
 ### 0. Get the necessary tools:
 1. `yarn global add @neutralino/neu`
@@ -18,6 +19,7 @@ A preconfigured, quick start template for making very [light and fast](https://g
 1. `yarn run build`
 
 And you're done with the setup! Yes, it was that easy.
+
 
 ## Usage
 For us to have hot-reload enabled, we need to run both the neutralino process and frontend separately.
