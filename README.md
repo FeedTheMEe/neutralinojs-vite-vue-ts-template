@@ -16,6 +16,8 @@ A preconfigured, quick start template for making very [light and fast](https://g
 
 4. Setup the frontend part: `yarn && yarn run build`
 
+5. !IMPORTANT! Create a symlink for auth_info (necessary for the backend to work): `cd src && ln -s ~/home/yourusername/path/to/your/project/.tmp/auth_info.json ./auth_info.json`
+
 And you're done with the setup! Yes, it was that easy.
 
 

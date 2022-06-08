@@ -4,6 +4,10 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+
+function debug () {
+  Neutralino.os.showMessageBox('Test Message Box', 'If you see this then your backend is probably working just fine :)')
+}
 </script>
 
 <template>
@@ -27,6 +31,11 @@ const count = ref(0)
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
+
+  <br><br>
+
+  <button @click="debug">message box</button>
+
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
