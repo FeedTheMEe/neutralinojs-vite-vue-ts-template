@@ -5,7 +5,7 @@ createApp(App).mount('#app')
 
 if (!window.NL_PORT) {
     (async () => {
-        const config = await import('./auth_info.json') // Make sure you successfully created a symlink for the auth_info (step 5 in README)
+        const config = await import('./auth_info.json') // Make sure you successfully created a symlink for the auth_info (step 6 in README)
         window.NL_PORT = config.port
         window.NL_TOKEN = config.accessToken
     })()
