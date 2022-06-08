@@ -7,11 +7,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "add": "^2.0.6",
+    "vue": "^3.2.25",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/node": "^17.0.38",
     "@vitejs/plugin-vue": "^2.3.3",
+    "neutralinojs-types": "^1.1.1",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vue-tsc": "^0.34.7"
