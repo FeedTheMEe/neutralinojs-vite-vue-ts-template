@@ -10,15 +10,17 @@ A preconfigured, quick start template for making very [light and fast](https://g
 ## Installation And Setup
 1. Get the necessary tools: `yarn global add @neutralinojs/neu`
 
-2. Setup the "backend" part: `neu update`
+2. Clone this repository and `cd` into it: `git clone https://github.com/FeedTheMEe/neutralinojs-vite-vue-ts-template.git && cd neutralinojs-vite-vue-ts-template`
 
-3. Move into the `frontend` folder: `cd frontend`
+3. Setup the "backend" part: `neu update`
 
-4. Setup the frontend part: `yarn && yarn run build`
+4. Move into the `frontend` folder: `cd frontend`
 
-5. Create a temporary folder in the main project folder called `.tmp` and into it create an empty `auth_info.json`
+5. Setup the frontend part: `yarn && yarn run build`
 
-6. !IMPORTANT! Create a symlink for auth_info (necessary for the backend to work): `cd src && rm ./auth_info.json && ln -s /home/yourusername/path/to/your/project/.tmp/auth_info.json ./auth_info.json`
+6. Create a temporary folder in the main project folder called `.tmp` and into it create an empty `auth_info.json`
+
+7. !IMPORTANT! Create a symlink for auth_info (necessary for the backend to work): `cd src && rm ./auth_info.json && ln -s /home/yourusername/path/to/your/project/.tmp/auth_info.json ./auth_info.json`
 
 And you're done with the setup! Yes, it was that easy.
 
